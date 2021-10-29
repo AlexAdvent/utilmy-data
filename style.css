@@ -1,0 +1,34 @@
+body{
+  margin:25px;
+  font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+  margin-bottom: 0.5rem;
+  font-family: 'Arvo', serif;
+  line-height: 1.5;
+  color: #32325d;
+}
+.dataTables_wrapper{
+  overflow-x: auto;
+}
+hr{
+  border-top: dotted 4px rgba(26, 47, 51, 0.7);
+  opacity:0.3 ;
+}
+div{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+table {
+  border-collapse: collapse;
+}
+table th,table td {
+  border: 1px solid lightgrey;
+} 
+
+.highcharts-container {
+  border: 3px dotted grey;
+}
+.mpld3-figure {
+  border: 3px dotted grey;
+}
